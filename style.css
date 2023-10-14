@@ -1,0 +1,56 @@
+.allign{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.466);
+}
+
+.padding-margin{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-conatiner{
+    display:grid;
+    grid-gap: none;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+ 
+.bottom{
+     display: grid;
+     grid-template-columns: auto auto auto auto;
+     grid-gap: none;
+     text-align: center;
+     
+}
+.capital{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.475);
+}
+
+.radius{
+    border-radius: 50px;
+}
+
+.upper{
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.475);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border-style: solid;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.596);
+    text-align: center;
+    text-transform: capitalize;
+}
+h4{
+    text-align: center;
+    tex
+}
