@@ -51,6 +51,16 @@
     text-transform: capitalize;
 }
 h4{
+    text-transform: capitalize;
     text-align: center;
-    tex
+}
+
+.needwhite{
+    text-decoration: none;
+    color: white;
+}
+
+.none{
+    padding: 0px;
+    margin: 0px;
 }
