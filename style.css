@@ -1,3 +1,8 @@
+body {  
+    font-family: 'Open Sans', sans-serif;  
+    margin: 0;  
+   }  
+
 .allign{
     text-align: center;
     text-transform: uppercase;
@@ -72,39 +77,16 @@
 }
 
 
-.bg-img{
+/* .bg-img{
     background-image: url(images/billboard.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 100vh;
+    text-align: center; */
 }
 
-.cnt{
-    margin: 20px;
-    width: 50px
-    display: grid;
-
-}
-.topnav{
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.61);
-}
-
-.topnav a{
-    float: right;
-    color: black;
-    text-align: center;
-    padding: 14px 16px ;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.topnav a:hover{
-    background-color: rgba(255, 255, 255, 0.502);
-    color: black;
-}
 button{
     border: none;
     color: white;
@@ -116,10 +98,9 @@ button{
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
- 
 }
 .touch{
-    background-color:rgba(0, 102, 255, 0.644);
+    background-color:rgb(0, 221, 255);
     font-size: 12px;
     padding: 10px 16px;
 
@@ -130,24 +111,23 @@ button{
 }
 
 .cont{
-    display: grid;
-    /* position: absolute; */
-    width: 30px;
-    max-width: 100px;
+   position: relative;
+   text-align: center;
+   color: black;
 }
+
 .overlay{
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     background: rgba(255, 255, 255, 0.683);
     background: rgba(255, 255, 255, 0.703);
     color: black;
     width: 100%;
     transition: .5s ease;
     opacity: 0;
-    color: white;
+    color: black;
     font-size: 20px;
-    padding: 20px;
-    text-align: center
+    padding: 3px;
 }
 
 .cont:hover .overlay{
@@ -169,10 +149,63 @@ button{
     padding: 60px;
     
 }
+
 h2{
     text-transform: uppercase;
 }
 
+.site-header{
+    background-image: url(images/billboard.jpg);
+    background-position: bottom;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    
+    
+ }
+
+.site-identity{
+    background-color: rgba(255, 255, 255, 0.833);
+    opacity: 0.8;
+   
+}
+
 .nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+   ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+   }
+
+   li{
+    padding: 5px 5px;
+   }
+
+   a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+   }
+
+
+.space{
     display: block;
+    margin: o auto;
+    float: none;
+
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
 }
